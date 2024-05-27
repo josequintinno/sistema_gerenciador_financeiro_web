@@ -18,19 +18,31 @@ body {
 }
 
 header {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.4rem 1.4rem;
-    /* border: red solid 1px; */
+    padding: 1.4rem;
     box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section i {
+    font-size: 1.5rem;
+}
+
 section p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.7px;
     font-family: "Asap-Bold";
+    margin-left: 0.5rem;
 }
 
 nav ul {
@@ -38,6 +50,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     gap: 1.2rem;
+    margin-right: 3rem;
 }
 
 nav ul li {
@@ -59,3 +72,9 @@ nav ul li a:hover {
 .active {
     font-weight: bold;
 }
+
+/* aside {
+    background-color: red;
+    width: 40rem;
+    height: 100svh;
+} */
