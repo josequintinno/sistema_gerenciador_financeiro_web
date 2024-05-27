@@ -8,6 +8,13 @@
 
     -> Criar tela de cadastro de Lançamentos Financeiros (Receitas, Despesas, Contratos e Empréstimos)
 
+##### Tarefas
+
+    -> SISGERFIN-27052024181902
+        > Implementar tela Principal com Header e Menus para as telas de Cadastros
+        > Inserir icones e animações na tela inicial
+        > Criar modal para cadastro de Receitas na tela Principal
+
 ##### Padrão de _commits_
 
     -> Features: 🔹 :small_blue_diamond: feature: <descricao>
