@@ -19,7 +19,7 @@
         <nav>
             <ul>
                 <li><a href="/">Principal</a></li>
-                <li><a href="/pages/receitas.html">Receitas</a></li>
+                <li><a id="open-modal-receita">Receitas</a></li>
                 <li><a href="despesas.html">Despesas</a></li>
                 <li><a href="emprestimos.html">Empréstimos</a></li>
                 <li><a href="contratos.html">Contratos</a></li>
@@ -30,11 +30,22 @@
 
     </header>
 
-    <aside>
+    <aside id="modal-receita">
 
-        &nbsp;
+        <div class="header">
+            <h2>Cadastro de Receitas Variáveis</h2>
+            <hr/>
+        </div>
+        <div class="main"></div>
+
+        <div class="footer">
+            <button>Cadastrar Receita</button>
+            <button id="botao-cancelar">Cancelar</button>
+        </div>
 
     </aside>
+
+    <script src="./resources/scripts/index.js"></script>
     
 </body>
 </html>
