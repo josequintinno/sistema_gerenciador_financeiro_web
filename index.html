@@ -20,7 +20,7 @@
             <ul>
                 <li><a href="/">Principal</a></li>
                 <li><a id="open-modal-receita">Receitas</a></li>
-                <li><a href="despesas.html">Despesas</a></li>
+                <li><a id="open-modal-despesa">Despesas</a></li>
                 <li><a href="emprestimos.html">Empréstimos</a></li>
                 <li><a href="contratos.html">Contratos</a></li>
                 <li><a href="relatorios.html">Relatórios</a></li>
@@ -36,7 +36,33 @@
             <h2>Cadastro de Receitas Variáveis</h2>
             <hr/>
         </div>
-        <div class="main"></div>
+
+        <div class="main">
+
+            <form>
+
+                <div class="input-box">
+                    <label>Categoria da Receita</label>
+                    <select>
+                        <option>Selecione</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label>Fonte do Pagamento</label>
+                    <select>
+                        <option>Selecione</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label>Data do Pagamento</label>
+                    <input placeholder="DD/MM/AAAA"/>
+                </div>
+
+            </form>
+
+        </div>
 
         <div class="footer">
             <button>Cadastrar Receita</button>

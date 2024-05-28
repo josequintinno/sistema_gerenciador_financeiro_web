@@ -15,10 +15,11 @@
         - [x] Inserir icones e animações na tela inicial
         - [x] Criar modal para cadastro de Receitas na tela Principal
         - [ ] Criar formulario de cadastro de Receitas Variáveis
+        - [ ] Criar nova tela para de cadastro de Despesas Variáveis
 
 ##### Padrão de _commits_
 
-    -> Features: 🔹 :small_blue_diamond: feature: Criar modal para cadastro de Receitas na tela Principal
+    -> Features: 🔹 :small_blue_diamond: feature: Criar nova tela para de cadastro de Despesas Variáveis
     -> Refactors: 🔺 :small_red_triangle: refactor: <descricao>
     -> Bug Fix: 🔻 :small_red_triangle_down: bugfix: <descricao>
     -> Build: 🔑 :key: build: <descricao>
