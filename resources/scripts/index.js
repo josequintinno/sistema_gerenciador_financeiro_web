@@ -18,7 +18,7 @@ let janelaCadastroDespesaVariavel = null;
 menuDespesaLink.addEventListener("click", function() {
     try {
         if (!janelaCadastroDespesaVariavel || janelaCadastroDespesaVariavel.closed) {
-            janelaCadastroDespesaVariavel = window.open("http://127.0.0.1:5500/pages/despesas.html", "_blank", "width=1200,height=600");
+            janelaCadastroDespesaVariavel = window.open("../pages/despesa-cadastro.html", "_blank", "width=1200,height=600");
         } else {
             janelaCadastroDespesaVariavel.focus();
         }
