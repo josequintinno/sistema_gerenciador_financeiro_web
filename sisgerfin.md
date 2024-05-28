@@ -16,6 +16,7 @@
         - [x] Criar modal para cadastro de Receitas na tela Principal
         - [ ] Criar formulario de cadastro de Receitas Variáveis
         - [ ] Criar nova tela para de cadastro de Despesas Variáveis
+        - [ ] Implementar configuração de Dark Mode para o sistema
 
 ##### Padrão de _commits_
 
@@ -23,6 +24,6 @@
     -> Refactors: 🔺 :small_red_triangle: refactor: <descricao>
     -> Bug Fix: 🔻 :small_red_triangle_down: bugfix: <descricao>
     -> Build: 🔑 :key: build: <descricao>
-    -> Document: 📘 :blue_book: document: <descricao>
+    -> Document: 📘 :blue_book: document: Atualizacao do documento
 
 Fonte: [Github-Emoji-Icons](https://github.com/scotch-io/All-Github-Emoji-Icons/tree/master)
