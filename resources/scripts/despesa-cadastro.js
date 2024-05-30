@@ -38,6 +38,20 @@ function popularDadosCategoriaDespesa(categoriaDespesaList) {
     });
 }
 
+function cadastrarDespesa() {
+
+    event.preventDefault();
+
+    const codigoCategoriaDespesa = document.querySelector('select[id="categoria-despesa-input"]');
+
+    const despesaPersistir = {
+        codigoCategoriaDespesa: codigoCategoriaDespesa.value
+    }
+
+    console.log(despesaPersistir);
+
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     recuperarCategoriaDespesa();
 });
