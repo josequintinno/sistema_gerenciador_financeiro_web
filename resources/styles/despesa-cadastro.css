@@ -48,6 +48,18 @@ form {
     margin: auto;
 }
 
+.form-content .form-checkbox {
+    margin: auto;
+}
+
+.form-content input {
+    margin-left: 0.6rem;
+}
+
+.form-content span {
+    margin-left: 0.4rem;
+}
+
 .form-box {
     display: flex;
     flex-direction: row;
@@ -55,6 +67,7 @@ form {
 }
 
 .form-box label {
+    margin-bottom: 0.2rem;
     font-weight: 600;
 }
 
@@ -94,6 +107,14 @@ form {
     width: 80%;
 }
 
+.columnLXXX {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .form-box button {
     width: 100%;
     padding: 0.4rem;
@@ -101,6 +122,13 @@ form {
     border: 1px solid #143fee;
     color: #1476eee3;
     border-radius: 10px;
+    margin-top: 0.4rem;
+    cursor: pointer;
+}
+
+.form-box .form-button-file {
+    /* border: red 1px solid; */
+    margin: auto;
 }
 
 .form-datatable {
@@ -151,6 +179,7 @@ form {
     background-color: #ce3751;
     border-radius: 4px;
     font-size: 8px;
+    cursor: pointer;
 }
 
 .form-datatable table tbody tr td button i {
