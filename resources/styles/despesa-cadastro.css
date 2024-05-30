@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Asap";
+    src: url(/resources/fonts/Asap/Asap-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Asap-Bold";
+    src: url(/resources/fonts/Asap/Asap-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Asap";
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-header {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #bebebe;
+    border-radius: 2px;
+    width: 96%;
+    margin: auto;
+}
+
+.form-header p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.form-content {
+    display: flex;
+    padding: 1rem;
+    width: 97%;
+    margin: auto;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-box label {
+    font-weight: 600;
+}
+
+.form-box input {
+    width: 88%;
+    padding: 0.6rem;
+    margin-top: 0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid #CCC;
+}
+
+.form-box select {
+    width: 96%;
+    padding: 0.6rem;
+    margin-top: 0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid #CCC;
+}
+
+.columnS {
+    width: 20%;
+}
+
+.columnM1 {
+    width: 26%;
+}
+
+.columnM2 {
+    width: 40%;
+}
+
+.columnL1 {
+    width: 50%;
+}
+
+.columnL2 {
+    width: 80%;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 0.4rem;
+    background-color: white;
+    border: 1px solid #143fee;
+    color: #1476eee3;
+    border-radius: 10px;
+}
+
+.form-datatable {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+
+.form-datatable table {
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(1, 1, 1, 0.15);
+    width: 100%;
+}
+
+.form-datatable table thead tr {
+    background-color: #645cf4;
+    color: white;
+}
+
+.form-datatable table thead tr th {
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-datatable table thead tr th {
+    padding: 2px;
+}
+
+.form-datatable table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.form-datatable table tbody tr:hover {
+    background-color: #ddd;
+    border-left: 1px solid silver;
+    font-weight: 500;
+}
+
+.form-datatable table tbody tr td {
+    padding: 0.3rem;
+}
+
+.form-datatable table tbody tr td button {
+    border: none;
+    padding: 0.4rem;
+    color: white;
+    background-color: #ce3751;
+    border-radius: 4px;
+    font-size: 8px;
+}
+
+.form-datatable table tbody tr td button i {
+    font-size: larger;
+}
+
+.form-datatable table tbody tr td:nth-child(1) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
+.form-datatable table tbody tr:nth-of-type(even) {
+    background-color: #F3F3F3;
+    /* border: solid 1px red; */
+}
+
+.form-datatable table tbody tr:nth-of-type(even):hover {
+    background-color: #ddd;
+}
+
+.form-datatable table tbody tr:last-of-type {
+    border-bottom: 2px solid #645cf4;
+}
+
+.form-datatable table tbody tr td:nth-child(3),
+.form-datatable table tbody tr td:nth-child(5) {
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.form-footer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    margin: auto;
+}
+
+.form-footer button {
+    padding: 1rem;
+    margin-left: 0.4rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.form-footer button:nth-child(1) {
+    width: 85%;
+    background: linear-gradient(90deg, #645cf4, #645cf4);
+}
+
+.form-footer button:nth-child(1):hover {
+    width: 85%;
+    background: linear-gradient(90deg, #645cf4, #4942cd);
+}
+
+.form-footer button:nth-child(2) {
+    background: linear-gradient(90deg, #d4455d, #ce3751);
+    width: 15%;
+}
+
+.form-footer button:nth-child(2):hover {
+    background: linear-gradient(90deg, #ce3751, #a51e34);
+    width: 15%;
+}
+
+@media (max-width: 600px) {
+
+    .form-content {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 97%;
+        transition: all 1s ease;
+    }
+
+    .form-box input {
+        width: 92%;
+        padding: 0.6rem;
+        margin-top: 0.6rem;
+        border-radius: 0.5rem;
+        border: 1px solid #CCC;
+    }
+
+    .form-box select {
+        padding: 0.6rem;
+        margin-bottom: 0.6rem;
+        border-radius: 0.5rem;
+        border: 1px solid #CCC;
+    }
+
+}

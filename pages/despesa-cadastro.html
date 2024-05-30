@@ -5,88 +5,150 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../resources/librarys/RemixIcons/remixicon.css" />
-    <link rel="stylesheet" href="../resources/styles/despesa.css" />
+    <link rel="stylesheet" href="../resources/styles/despesa-cadastro.css" />
     <title>Sistema de Gestão Financeira</title>
 </head>
 
 <body>
 
-    <section id="container">
+    <form>
 
-        <form>
+        <div class="form-header">
+            <p>Cadastro de Despesas</p>
+        </div>
 
-            <h2>Cadastro de Despesas</h2>
+        <div class="form-content">
 
-            <div class="content">
-
-                <div class="row">
-
-                    <div class="input-box">
-                        <label>Categoria da Despesa</label>
-                        <select>
-                            <option>Selecione</option>
-                            <option>Despesa Fixa</option>
-                            <option>Despesa Variável</option>
-                        </select>
-                    </div>
-
-                    <div class="input-box">
-                        <label>Favorecido</label>
-                        <select>
-                            <option>Selecione</option>
-                            <option>Amazon Brasil</option>
-                            <option>Apple Brasil</option>
-                        </select>
-                    </div>
-
-                    <div class="input-box">
-                        <label>Data Aquisição</label>
-                        <input type="date" placeholder="DD/MM/AAAA"/>
-                    </div>
-
-                </div>
-
-                <div class="row">
-
-                    <div class="input-box">
-                        <label>Produto ou Serviço</label>
-                        <select>
-                            <option>Selecione</option>
-                            <option>Iphone 12 Pro Max</option>
-                            <option>Macbook Pro M2</option>
-                        </select>
-                    </div>
-
-                    <div class="input-box">
-                        <label>Valor Unitário</label>
-                        <input placeholder="R$ 00,00" />
-                    </div>
-
-                    <div class="input-box">
-                        <label>Quantidade</label>
-                        <select>
-                            <option>Selecione</option>
-                            <option>1</option>
-                            <option>2</option>
-                        </select>
-                    </div>
-
-                    <div class="input-box">
-                        <button>Adicionar</button>
-                    </div>
-
-                </div>
-
+            <div class="form-box columnL2">
+                <label>Categoria de Despesa</label>
+                <select>
+                    <option>Selecione</option>
+                    <option>Despesa Fixa</option>
+                    <option>Despesa Variável</option>
+                </select>
             </div>
 
-            <div class="footer">
-                <button>Cadatrar Despesa</button>
-                <button>Cancelar</button>
+            <div class="form-box columnL2">
+                <label>Favorecido</label>
+                <select>
+                    <option>Selecione</option>
+                    <option>Amazon Brasil</option>
+                    <option>Apple Brasil</option>
+                </select>
             </div>
 
-        </form>
+            <div class="form-box columnS">
+                <label>Data da Despesa</label>
+                <input placeholder="DD/MM/AAAA" />
+            </div>
 
-    </section>
+        </div>
+
+        <div class="form-content">
+
+            <div class="form-box columnL1">
+                <label>Produto ou Serviço</label>
+                <select>
+                    <option>Selecione</option>
+                    <option>Despesa Fixa</option>
+                    <option>Despesa Variável</option>
+                </select>
+            </div>
+
+            <div class="form-box columnS">
+                <label>Valor Unitário</label>
+                <input placeholder="R$ 00,00" />
+            </div>
+
+            <div class="form-box columnS">
+                <label>Quantidade</label>
+                <select>
+                    <option>Selecione</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+            </div>
+
+            <div class="form-box columnS">
+                <label>&nbsp;</label>
+                <button>Adicionar</button>
+            </div>
+
+        </div>
+
+        <div class="form-datatable">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto ou Serviço</th>
+                        <th>Valor Unitário</th>
+                        <th>Quantidade</th>
+                        <th>Valor Total</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple iPhone 15 (512 GB)</td>
+                        <td>R$ 6.749,11</td>
+                        <td>1</td>
+                        <td>R$ 6.749,11</td>
+                        <td>
+                            <button>
+                                <i class="ri-close-circle-line"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Apple iPhone 15 (512 GB)</td>
+                        <td>R$ 6.749,11</td>
+                        <td>1</td>
+                        <td>R$ 6.749,11</td>
+                        <td>
+                            <button>
+                                <i class="ri-close-circle-line"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Apple iPhone 15 (512 GB) Apple iPhone 15 (512 GB) Apple iPhone 15 (512 GB)</td>
+                        <td>R$ 6.749,11</td>
+                        <td>1</td>
+                        <td>R$ 6.749,11</td>
+                        <td>
+                            <button>
+                                <i class="ri-close-circle-line"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Apple iPhone 15 (512 GB)</td>
+                        <td>R$ 6.749,11</td>
+                        <td>1</td>
+                        <td>R$ 6.749,11</td>
+                        <td>
+                            <button>
+                                <i class="ri-close-circle-line"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+
+        </div>
+
+        <div class="form-footer">
+            <button>Cadastrar Despesa</button>
+            <button>Cancelar</button>
+        </div>
+
+    </form>
 
 </body>
 
