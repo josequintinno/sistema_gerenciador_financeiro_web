@@ -52,6 +52,15 @@ function cadastrarDespesa() {
 
 }
 
+function fecharJanela() {
+    event.preventDefault();
+    if (window.opener) {
+        window.close();
+    } else {
+        console.error("Não foi possível fechar!");
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     recuperarCategoriaDespesa();
 });
